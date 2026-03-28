@@ -1,0 +1,3 @@
+Hoisting:
+
+In JavaScript, hoisting is a behavior where variable and function declarations are moved to the top of their containing scope during the compile phase. This means that variables declared with var are hoisted and initialized as undefined, while let and const are also hoisted but remain in a temporal dead zone until they are explicitly defined. As a result, if you try to access a let or const variable before its declaration, you’ll get a reference error. This is important to keep in mind so you don’t unintentionally use variables before they’re ready.
