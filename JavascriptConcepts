@@ -6,4 +6,6 @@ As a result, if you try to access a let or const variable before its declaration
 This is important to keep in mind so you don’t unintentionally use variables before they’re ready.
 
 
-First, function declarations are hoisted, so they’re available anywhere in their scope. Second, function expressions assign a function to a variable, but they’re not hoisted, so you have to define them before using them. Third, arrow functions are a shorter syntax for writing functions and don’t have their own bindings for this. And fourth, anonymous functions are just functions without a name, often used in expressions or callbacks.
+First, function declarations are hoisted, so they’re available anywhere in their scope. Second, function expressions assign a function to a variable,
+but they’re not hoisted, so you have to define them before using them. Third, arrow functions are a shorter syntax for writing functions and don’t have their own bindings for this. 
+And fourth, anonymous functions are just functions without a name, often used in expressions or callbacks.
